@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: palevioletred;
+}
+
+.display {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#start {
+  background-color: green;
+  color: white;
+}
+
+#stop,
+#reset {
+  background-color: teal;
+  color: #333;
+}
+
+#stop:hover,
+#reset:hover {
+  background-color: #ddd;
+}
